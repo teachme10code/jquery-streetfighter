@@ -1,4 +1,4 @@
-/** {
+*/* {
   outline: red 1px solid;
 }*/
 
@@ -56,6 +56,6 @@ body {
   display: none;
   position: relative;
   top: -322px;
-  left: 5px;
+  left: -15px;
   float: right;
 }
