@@ -42,7 +42,7 @@ $(document).ready(function() {
     }
   })
 
-  $(this).keyup(function() {
+  $(this).keyup(function(event) {
     if ( event.which == 88 ) {
       $('.ryu-cool').hide();
       $('.ryu-ready').hide();

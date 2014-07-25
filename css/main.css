@@ -1,7 +1,3 @@
-*/* {
-  outline: red 1px solid;
-}*/
-
 body {
   background-color: black;
 }
@@ -12,6 +8,25 @@ body {
   padding-left: 100px;
   min-width: 1200px;
   height: 500px;
+}
+
+@font-face {
+    font-family: "anime";
+    src: url(../anime-ace/animeace.ttf) format("truetype");
+}
+
+.how-to {
+  position: absolute;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 40%;
+  font-family: "anime", Verdana, Tahoma;
+  font-size: 30px;
+}
+
+li {
+  padding: 20px;
+  line-height: 40px;
 }
 
 .ryu {
