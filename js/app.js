@@ -3,6 +3,8 @@ $(document).ready(function() {
     $('.ryu-still').hide();
     $('.ryu-cool').hide();
     $('.ryu-ready').show();
+    $( "li" ).fadeOut( "slow", function() {
+  }), 90
   })
 
   .mouseleave(function() {
