@@ -4,7 +4,7 @@ $(document).ready(function() {
     $('.ryu-cool').hide();
     $('.ryu-ready').show();
     $( "li" ).fadeOut( "slow", function() {
-  }), 90
+  }), 180
   })
 
   .mouseleave(function() {
